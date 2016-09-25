@@ -1,0 +1,45 @@
+mongo:
+  host: localhost
+  port: 3306
+  username: root
+  password: password
+  database: db
+scoreboard:
+  idle:
+    solo:
+      title: "&6&lPractice &c[Beta]"
+      lines:
+      - "&r&7&m--------------------"
+      - "&6&lGlobal: &f%elo% ELO"
+      - " &7* &eYour rank&7: &f%rank%"
+      - " "
+      - "&c&lServer: &f%server%"
+      - "&c&lPing: &f%ping%ms"
+      - "  "
+      - "&e&lUnranked: &fInfinite"
+      - "&e&lRanked: &f%matches%"
+      - "&7&m--------------------"
+    party:
+      title: "&6&lPractice &c[Beta]"
+      lines:
+      - "&r&7&m--------------------"
+      - "&6&lLeader: &f%leader%"
+      - "&c&lMembers: &f%members-count% / %members-max%"
+      - "&7&m--------------------"
+  match:
+    solo:
+      title: "&6&lPractice &c[Beta]"
+      lines:
+      - "&r&7&m--------------------"
+      - "&6&lOpponent: &f%opponent%"
+      - "&c&lDuration: &f%duration%"
+      - "&4&lLadder: &f%ladder%"
+      - "&7&m--------------------"
+    party:
+      title: "&6&lPractice &c[Beta]"
+      lines:
+      - "&r&7&m--------------------"
+      - "&6&lAlive Teammates: &f%members-alive%"
+      - "&c&lAlive Enemies: &f%enemies-alive%"
+      - "74&lDuration: &f%duration%"
+      - "&7&m--------------------"
